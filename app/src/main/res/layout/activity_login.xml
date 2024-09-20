@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/login_bg"
+    android:background="@drawable/sukuna"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -22,8 +22,9 @@
         android:id="@+id/imageView"
         android:layout_width="320dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="64dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
         app:srcCompat="@drawable/login_text" />
@@ -62,8 +63,8 @@
         android:id="@+id/textViewRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="140dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
         android:text="สมัครสมาชิก"
         android:textColor="#FFFFFF"
         android:textSize="18sp"
@@ -74,8 +75,8 @@
         android:id="@+id/buttonLogin"
         android:layout_width="140dp"
         android:layout_height="55dp"
-        android:layout_marginTop="113dp"
-        android:layout_marginEnd="30dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
         android:background="@drawable/button"
         android:text="เข้าสู่ระบบ"
         android:textColor="#FFFFFF"

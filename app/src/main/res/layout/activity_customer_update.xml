@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/register_bg"
+    android:background="@drawable/editpf"
     tools:context=".RegisterActivity">
 
     <androidx.cardview.widget.CardView
@@ -45,7 +45,7 @@
         android:id="@+id/editTextUsername"
         android:layout_width="320dp"
         android:layout_height="46dp"
-        android:layout_marginTop="75dp"
+        android:layout_marginTop="8dp"
         android:background="@drawable/edittext"
         android:drawableLeft="@drawable/baseline_user_24"
         android:ems="10"
@@ -53,6 +53,7 @@
         android:inputType="text"
         android:paddingLeft="15dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardView" />
 
@@ -130,13 +131,15 @@
             android:id="@+id/radioButtonMale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="ชาย" />
+            android:text="ชาย"
+            android:textColor="#FFFFFF" />
 
         <RadioButton
             android:id="@+id/radioButtonFemale"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="หญิง" />
+            android:text="หญิง"
+            android:textColor="#FFFFFF" />
     </RadioGroup>
 
     <android.widget.Button
